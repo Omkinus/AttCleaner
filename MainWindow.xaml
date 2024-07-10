@@ -4,17 +4,21 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:AttCleaner"
-        mc:Ignorable="d" Height="189" Width="452.857" ResizeMode="NoResize" WindowStyle="None">
+        mc:Ignorable="d" Height="138.333" Width="296.857" ResizeMode="NoResize" WindowStyle="None" Background="White">
     <Grid>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="21*"/>
-            <ColumnDefinition Width="23*"/>
+            <ColumnDefinition Width="17*"/>
+            <ColumnDefinition Width="461*"/>
         </Grid.ColumnDefinitions>
-        <Button Content="" Grid.Column="1" HorizontalAlignment="Left" Margin="205,10,0,0" VerticalAlignment="Top" Width="22" Height="22" BorderBrush="White" Click="Button_Click">
+        <Button Content="" Grid.Column="1" HorizontalAlignment="Left" Margin="254,10,0,0" VerticalAlignment="Top" Width="22" Height="22" BorderBrush="White" Click="Button_Click" RenderTransformOrigin="-4.652,0.576">
             <Button.Background>
-                <ImageBrush ImageSource="/images/close.png"/>
+                <ImageBrush ImageSource="images/close.png"/>
             </Button.Background>
         </Button>
+        <TextBlock HorizontalAlignment="Left" Height="27" TextWrapping="Wrap" VerticalAlignment="Top" Width="89" Foreground="Black" Text="AttCleaner" FontWeight="Bold" FontSize="18" RenderTransformOrigin="0.56,0.525" FontFamily="Microsoft JhengHei Light" Margin="0,5,0,0" Grid.Column="1"/>
+        <TextBlock Grid.Column="1" HorizontalAlignment="Left" Height="18" Margin="0,37,0,0" TextWrapping="Wrap" Text="Attribute name:" VerticalAlignment="Top" Width="157" FontSize="14"/>
+        <TextBox x:Name ="attributetextbox" BorderThickness="0,0,0,2" Grid.Column="1" HorizontalAlignment="Left" Height="20" Margin="1,69,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="275" BorderBrush="#FFBF0404"/>
+        <Button BorderThickness="1" Content="Clean" HorizontalAlignment="Left" Height="28" Margin="10,100,0,0" VerticalAlignment="Top" Width="277" Background="White" BorderBrush="#FFBF0404" Grid.ColumnSpan="2" Click="Button_Click_1" FontSize="14"/>
 
     </Grid>
 </Window>
