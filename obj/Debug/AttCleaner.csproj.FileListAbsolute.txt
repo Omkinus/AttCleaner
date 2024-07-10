@@ -1,0 +1,14 @@
+C:\Users\User\_teklaplugins\AttCleaner\bin\Debug\AttCleaner.exe.config
+C:\Users\User\_teklaplugins\AttCleaner\bin\Debug\AttCleaner.exe
+C:\Users\User\_teklaplugins\AttCleaner\bin\Debug\AttCleaner.pdb
+C:\Users\User\_teklaplugins\AttCleaner\obj\Debug\AttCleaner.csprojAssemblyReference.cache
+C:\Users\User\_teklaplugins\AttCleaner\obj\Debug\MainWindow.g.cs
+C:\Users\User\_teklaplugins\AttCleaner\obj\Debug\App.g.cs
+C:\Users\User\_teklaplugins\AttCleaner\obj\Debug\AttCleaner_MarkupCompile.cache
+C:\Users\User\_teklaplugins\AttCleaner\obj\Debug\AttCleaner_MarkupCompile.lref
+C:\Users\User\_teklaplugins\AttCleaner\obj\Debug\MainWindow.baml
+C:\Users\User\_teklaplugins\AttCleaner\obj\Debug\AttCleaner.g.resources
+C:\Users\User\_teklaplugins\AttCleaner\obj\Debug\AttCleaner.Properties.Resources.resources
+C:\Users\User\_teklaplugins\AttCleaner\obj\Debug\AttCleaner.csproj.GenerateResource.cache
+C:\Users\User\_teklaplugins\AttCleaner\obj\Debug\AttCleaner.exe
+C:\Users\User\_teklaplugins\AttCleaner\obj\Debug\AttCleaner.pdb
