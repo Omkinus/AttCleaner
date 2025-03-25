@@ -43,11 +43,7 @@ namespace AttCleaner
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-            if (!_model.GetConnectionStatus())
-            {
-                MessageBox.Show("ВКЛЮЧИ ТЕКЛУ");
-            }
-
+    
             ModelObjectEnumerator selectedModelObjects = new Tekla.Structures.Model.UI.ModelObjectSelector().GetSelectedObjects();
 
 
@@ -56,7 +52,7 @@ namespace AttCleaner
             {
                 if (item is Part) {
                     Tekla.Structures.Model.ModelObject modelObject = item as Tekla.Structures.Model.ModelObject;
-                    modelObject.SetUserProperty(attributetextbox.Text,"");
+                    modelObject.SetUserProperty("OBJECT_LOCKED","No");
                     modelObject.Modify();
                 }
 
